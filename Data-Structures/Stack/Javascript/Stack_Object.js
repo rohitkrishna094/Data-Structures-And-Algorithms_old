@@ -1,3 +1,4 @@
+// Stack implementation based on object
 class Stack_Object {
   constructor() {
     this.count = 0;
