@@ -46,4 +46,4 @@ where
 #### Some extra definitions
 - Degree: The degree of a vertex is number of edges that are connected to that vertex.
 - In-degree: (Only applicable for directed graphs) Represents the number of edges incoming to a vertex(i.e entering the vertex)
-- Out-degree: (Only applicable for directed graphs) Represents the number of edges outgoing from the vertex(i.e leaving the vertex)
+- Out-degree: (Only applicable for directed graphs) Represents the number of edges outgoing from the vertex(i.e leaving the vertex).
