@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class BuildTest {
     public static void main(String[] args) {
-        testStreamConstructor();
         testNormalConstructor();
+        testStreamConstructor();
     }
 
     public static void testStreamConstructor() {
