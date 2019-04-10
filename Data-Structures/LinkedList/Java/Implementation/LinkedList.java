@@ -1,9 +1,11 @@
 public class LinkedList<T> {
 
-    Node<T> head;
+    private Node<T> head;
+    private int size;
 
     public LinkedList() {
         head = null;
+        size = 0;
     }
 
     // add at the first
@@ -13,6 +15,7 @@ public class LinkedList<T> {
             newNode.next = head;
         }
         head = newNode;
+        size++;
     }
 
     public void addFirst(T data) {
@@ -21,7 +24,7 @@ public class LinkedList<T> {
 
     // Add at last
     public void addLast(T data) {
-
+        this.add(this.size, data);
     }
 
     // Add at specified index or at the end if index < length
@@ -42,6 +45,7 @@ public class LinkedList<T> {
             cur.next = newNode;
             newNode.next = oldNext;
         }
+        size++;
     }
 
     @Override
@@ -64,6 +68,7 @@ public class LinkedList<T> {
     // Clear or empty the linkedlist;
     public void clear() {
         head = null;
+        size = 0;
     }
 
     // checks if given element exists in linkedlist or not
@@ -73,11 +78,16 @@ public class LinkedList<T> {
 
     // Gets first element in linkedlist
     public T getFirst() {
-        return null;
+        return head == null ? null : head.data;
     }
 
     // Gets last element in linkedlist
     public T getLast() {
+        return null;
+    }
+
+    // Get element at index. If not present null
+    public T get(int index) {
         return null;
     }
 
