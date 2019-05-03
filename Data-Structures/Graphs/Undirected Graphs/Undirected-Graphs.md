@@ -2,12 +2,12 @@
 
 #### API for implementation
 
-##### constructor
+###### constructor
 Graph(int V) - create a V vertex graph with no edges
 
 Graph(In in) - read a graph from input Stream in
 
-##### methods
+###### methods
 int V() - number of vertices
 int E() - number of edges
 void addEdge(int v, int w) - add edge v-w to this graph
@@ -21,3 +21,5 @@ String toString() - string representation
 |Adjacency Matrix|V^2|1|1|V|
 |Adjacency Lists|E + V|1|degree(v)|degree(v)|
 |Adjacency Sets|E + V|log v|log(v)|log(v) + degree(v)|
+
+#### Depth First Search
