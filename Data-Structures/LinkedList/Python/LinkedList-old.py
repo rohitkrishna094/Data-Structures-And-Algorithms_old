@@ -3,6 +3,7 @@ class Node:
         self.data = data
         self.next = None
 
+
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -29,14 +30,16 @@ class LinkedList:
 
     def removeLast(self):
         pass
-    
+
     def remove(self, data):
         pass
+
     def printList(self):
         cur = self.head
         while cur != None:
             print(cur.data, end=", ")
             cur = cur.next
+
 
 ll = LinkedList()
 ll.addFirst(25)
